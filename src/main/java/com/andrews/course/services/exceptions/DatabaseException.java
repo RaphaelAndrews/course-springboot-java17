@@ -1,4 +1,4 @@
-package com.andrews.course.resources.exceptions;
+package com.andrews.course.services.exceptions;
 
 public class DatabaseException extends RuntimeException {
 

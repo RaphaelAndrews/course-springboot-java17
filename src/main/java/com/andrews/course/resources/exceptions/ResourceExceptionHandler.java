@@ -1,4 +1,4 @@
-package com.andrews.course.services.exceptions;
+package com.andrews.course.resources.exceptions;
 
 import java.time.Instant;
 
@@ -9,8 +9,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.andrews.course.resources.exceptions.DatabaseException;
-import com.andrews.course.resources.exceptions.StandardError;
+import com.andrews.course.services.exceptions.DatabaseException;
+import com.andrews.course.services.exceptions.ResourceNotFoundException;
 
 @ControllerAdvice
 public class ResourceExceptionHandler {
